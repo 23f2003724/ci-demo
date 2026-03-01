@@ -1,5 +1,7 @@
 name: CI
 
+run-name: 23f2003724@ds.study.iitm.ac.in
+
 on:
   push:
     branches:
@@ -15,5 +17,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Print student email
+      - name: Print email
         run: echo "23f2003724@ds.study.iitm.ac.in"
