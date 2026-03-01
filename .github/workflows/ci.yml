@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -15,5 +15,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run a simple command
-        run: echo "CI is running successfully!"
+      - name: Print student email
+        run: echo "23f2003724@ds.study.iitm.ac.in"
